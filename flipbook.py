@@ -41,6 +41,7 @@ def generate():
         </head>
         <body>
             <h1>Upload the file to generate PDF</h1>
+            <p>Max file Size : 2MB</p>
             <form method=\"POST\" name=\"image_form\" enctype=\"multipart/form-data\">
                 <input type=\"file\" name=\"images\" multiple=\"multiple\" accept=\"image/*\"><br><br>
                 <input type=\"submit\" value=\"PDF生成\">
